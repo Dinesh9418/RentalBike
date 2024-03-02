@@ -11,15 +11,14 @@ import NoPage from "./components/noPage/NoPage";
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/bikerent" element={<BikeRent />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
-
         </Routes>
       </BrowserRouter>
     </div>

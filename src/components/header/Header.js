@@ -1,13 +1,13 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
         <div className="Header-main">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    Navbar
-                </a>
+                <Link to="/" className="navbar-brand">Navbar</Link>
+                
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -23,24 +23,24 @@ const Header = () => {
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">
+                            <Link class="nav-link" to="/">
                                 Home <span class="sr-only">(current)</span>
-                            </a>
+                            </Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <Link class="nav-link" to="/bikerent">
                                 Rent Bike
-                            </a>
+                            </Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <Link class="nav-link" to="/about">
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <Link class="nav-link" to="/contact">
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
