@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className="Header-main">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <Link to="/" className="navbar-brand">Navbar</Link>
-                
+                <Link to="/" className="navbar-brand text-primary">Rent Bike</Link>
+
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -45,10 +45,10 @@ const Header = () => {
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
                         <button class="btn btn-outline-primary my-2 mr-2 my-sm-0">
-                            Sign In
+                            <Link to="/logIn"> Sign In</Link>
                         </button>
                         <button class="btn btn-outline-primary my-2 my-sm-0">
-                            Sign up
+                            <Link to="/signUp"> Sign Up</Link>
                         </button>
                     </div>
                 </div>
