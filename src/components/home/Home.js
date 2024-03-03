@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import Bike  from "../../Assets/Images/bike.png";
+import Bike from "../../Assets/Images/bike.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -15,9 +16,11 @@ const Home = () => {
           industry.Lorem Ipsum has been the industry standard dummy text ever
           since the 1500.
         </p>
-        <button type="button" class="btn btn-primary">
-          Rent Car
-        </button>
+        <Link to="/bikerent">
+          <button type="button" class="btn btn-primary">
+            Rent Bike
+          </button>
+        </Link>
       </div>
       <div className="home_2">
         <img className="home_2_img" src={Bike} alt="bike_img" />
