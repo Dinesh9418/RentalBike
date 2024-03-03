@@ -44,10 +44,10 @@ const Header = () => {
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
-                        <button class="btn btn-outline-success my-2 mr-2 my-sm-0">
+                        <button class="btn btn-outline-primary my-2 mr-2 my-sm-0">
                             Sign In
                         </button>
-                        <button class="btn btn-outline-success my-2 my-sm-0">
+                        <button class="btn btn-outline-primary my-2 my-sm-0">
                             Sign up
                         </button>
                     </div>
