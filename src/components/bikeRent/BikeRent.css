@@ -1,0 +1,22 @@
+.bikeRent-main {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+    border: 2px solid rgb(92, 159, 169);
+    border-radius: 10%;
+    margin-bottom: 25px;
+}
+
+
+
+.bikeRent_img {
+    /* border: 2px solid orange; */
+    padding: 5px;
+    border-radius: 10%;
+}
