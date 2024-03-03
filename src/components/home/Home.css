@@ -1,0 +1,44 @@
+.home-main {
+  /* border: 2px solid red; */
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgba(178, 227, 227, 0.614);
+}
+.home_1 {
+  /* border: 2px solid blue; */
+  margin: 5px;
+}
+.home_1_heading {
+  margin: 18% 18%;
+  font-size: 50px;
+  font-weight: 600;
+}
+.home_1_span {
+  color: aqua;
+  outline: 1px rgb(9, 13, 12);
+}
+.home_1_span:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+.home_1_loream {
+  /* margin: 1%; */
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -12%;
+  font-size: 18px;
+  font-weight: 500;
+}
+.home_1_button {
+}
+
+.home_2 {
+  /* border: 2px solid black; */
+  margin: 5px;
+}
+.home_2_img {
+    margin: 5%;
+  height: 70vh;
+  width: 55%;
+}
