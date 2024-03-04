@@ -1,10 +1,9 @@
 .bikeRent-main {
     margin-top: 2%;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 11%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .card {
